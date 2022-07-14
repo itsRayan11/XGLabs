@@ -25,6 +25,8 @@
     width: 70px;
     height: 100px;
     cursor: pointer;
+    bottom: 25px;
+    left: -50px;
 }
 
 .navbar ul li {
@@ -38,24 +40,6 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-}
-
-
-.Header{
-    position: absolute;
-    width: 1700px;
-    height: 845px;
-    left: 110px;
-    top: 178px;
-
-    background: #FFFFFF;
-    box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.05);
-    border-radius: 50px;
-}
-
-.Header h1{
-    color: #FF5959;
-    position: absolute;
 }
 
 .navbar ul li::after {
@@ -72,4 +56,14 @@
 
 .navbar ul li:hover::after {
     width: 100%;
+}
+
+.Content{
+    margin: auto;
+    width: 1500px;
+    height: 700px;
+    bottom: 50px;
+    background: #fff;
+    box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
 }
