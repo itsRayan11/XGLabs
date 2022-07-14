@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -19,6 +21,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Inter';
+    font-weight: 500;
 }
 
 .logo {
@@ -60,9 +64,9 @@
 
 .Content {
     margin: auto;
-    width: 1500px;
-    height: 700px;
-    bottom: 50px;
+    width: 1700px;
+    height: 750px;
+    bottom: 40px;
     background: rgba(255, 255, 255, 0);
     box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.05);
     border-radius: 50px;
@@ -73,8 +77,8 @@
 }
 
 .GameScreenshot {
-    width: 1500px;
-    height: 700px;
+    width: 1700px;
+    height: 750px;
     background: rgba(255, 255, 255, 0);
     box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.025);
     border-radius: 50px;
@@ -82,18 +86,22 @@
 
 .GameName {
     position: absolute;
-    top: 550px;
+    top: 600px;
     left: 30px;
     background-color: rgba(255, 255, 255, 0);
 }
 
 .GameName h1{
     color: #FF5959;
+    font-family: 'Inter';
+    font-weight: 900;
     background-color: rgba(255, 255, 255, 0);
 }
 
 .GameName h5 {
     color: #FF5959;
+    font-family: 'Inter';
+    font-weight: 500;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -103,5 +111,4 @@
     background: #FF5959;
     bottom: 5px;
     border-radius: 20px;
-    border: #fff dotted;
 }
