@@ -58,12 +58,50 @@
     width: 100%;
 }
 
-.Content{
+.Content {
     margin: auto;
     width: 1500px;
     height: 700px;
     bottom: 50px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
     box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.05);
     border-radius: 50px;
+}
+
+.GameData {
+    background: rgba(255, 255, 255, 0);
+}
+
+.GameScreenshot {
+    width: 1500px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.025);
+    border-radius: 50px;
+}
+
+.GameName {
+    position: absolute;
+    top: 550px;
+    left: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.GameName h1{
+    color: #FF5959;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.GameName h5 {
+    color: #FF5959;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    background: #FF5959;
+    bottom: 5px;
+    border-radius: 20px;
+    border: #fff dotted;
 }
